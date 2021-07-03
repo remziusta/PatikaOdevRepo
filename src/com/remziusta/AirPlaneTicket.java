@@ -26,7 +26,7 @@ public class AirPlaneTicket {
                     float typeDiscount = totalDiscount * 0.20f;
                     System.out.println("Toplam tutar : " + (totalDiscount - typeDiscount) * 2);
                 }
-            }else if(age >= 12 && age <= 24){
+            }else if(age >= 12 && age <= 65){
                 float ageDiscount = total * 0.10f;
                 float totalDiscount = total - ageDiscount;
                 if (types == 1) {
