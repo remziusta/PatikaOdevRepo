@@ -9,6 +9,7 @@ public class KitleIndeksi {
         Scanner sc = new Scanner(System.in);
         System.out.print("Kilonuz : "); kilo = sc.nextFloat();
         System.out.print("Boyunuz (metre cinsinden) giriniz : "); boy = sc.nextFloat();
+        sc.close();
 
         System.out.println("Vücut Kitle indeksiniz : " + (kilo / (boy * boy)));
     }

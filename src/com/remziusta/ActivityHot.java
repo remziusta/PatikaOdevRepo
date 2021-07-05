@@ -17,5 +17,6 @@ public class ActivityHot {
         }else if(hot > 25){
             System.out.println("Yüzme");
         }
+        sc.close();
     }
 }

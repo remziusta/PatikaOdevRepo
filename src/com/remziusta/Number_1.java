@@ -15,7 +15,8 @@ public class Number_1 {
                 total += i;
             }
         }
-        
+        sc.close();
+
         System.out.println("Sonuç : " + total / counter);
     }
 }

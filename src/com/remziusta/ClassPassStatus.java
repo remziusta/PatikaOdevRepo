@@ -13,6 +13,7 @@ public class ClassPassStatus {
        System.out.print("Kimya notunuz : " ); kimya = sc.nextInt();
        System.out.print("Türkçe notunuz : " ); turkce = sc.nextInt();
        System.out.print("İngilizce notunuz : " ); muzik = sc.nextInt();
+       sc.close();
 
        int toplam = 0;
        if(mat > 0 && mat  < 100 && fizik > 0 && fizik  < 100 && kimya > 0 && kimya  < 100 && turkce > 0 && turkce  < 100 && muzik > 0 && muzik  < 100)

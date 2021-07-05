@@ -18,6 +18,7 @@ public class Calculator{
         System.out.println("Çıkarma - > -"); 
         System.out.print("İşleminizi seçin :");
         String y =  sc.next();
+        sc.close();
 
         switch (y.charAt(0)) {
             case '*':

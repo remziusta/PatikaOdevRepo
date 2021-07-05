@@ -14,6 +14,7 @@ public class Taksimetre {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Kaç km yolculuk edildi : "); kilometer = sc.nextFloat();
+        sc.close();
 
         totalPrice = kilometer * KM_FOR_PRICE + START_TAXIMETER_PRICE;
 

@@ -8,6 +8,8 @@ public class KdvTutarı {
         float fiyat;
         Scanner sc = new Scanner(System.in);
         System.out.print("ürün Tutarını Girin : "); fiyat = sc.nextFloat();
+        sc.close();
+
         if (fiyat > 0 && fiyat <= 1000){
             System.out.println("Ürün için ödenecek : " + fiyat * 0.18);
         }

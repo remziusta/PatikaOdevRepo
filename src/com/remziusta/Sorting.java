@@ -12,7 +12,8 @@ public class Sorting {
             System.out.print(i + 1 + ". sayıyı giriniz : ");
             array[i] = sc.nextInt();
         }
-        
+        sc.close();
+
         for (int i = 0; i < 2; i++) {
             for (int j = i + 1; j < 3; j++) {
                 if(array[j] < array[i]){

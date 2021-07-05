@@ -7,7 +7,8 @@ public class ChinaZodiac {
         Scanner sc = new Scanner(System.in);
         System.out.print("Doğum Yılınız : ");
         int birthYear = sc.nextInt();
-        
+        sc.close();
+
         String[] zodiacArray = {
             "Maymun", "Horoz", "Köpek", "Domuz", "Fare", "Öküz", 
             "Kaplan", "Tavşan", "Ejderha", "Yılan", "At","Koyun"};

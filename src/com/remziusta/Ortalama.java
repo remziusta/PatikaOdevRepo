@@ -14,6 +14,7 @@ public class Ortalama {
        System.out.print("Biyoloji notunuz : " ); biyoloji = sc.nextInt();
        System.out.print("İngilizce notunuz : " ); ingilizce = sc.nextInt();
        System.out.print("Geometri notunuz : " ); geo = sc.nextInt();
+       sc.close();
 
        int toplam = mat + fizik + kimya + biyoloji + ingilizce + geo;
        float ort = toplam / 6.0f;

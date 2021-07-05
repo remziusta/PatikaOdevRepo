@@ -11,7 +11,8 @@ public class Combination {
         int r = sc.nextInt();
         int combinationResult = factorialCalculator(n) / (factorialCalculator(r) * factorialCalculator(n - r));
         System.out.println("İki kümenin kombinasyon sayısı : " + combinationResult);
-            
+        sc.close();
+
     }
 
     public static int factorialCalculator(int k){

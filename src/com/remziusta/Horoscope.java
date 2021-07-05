@@ -8,6 +8,7 @@ public class Horoscope {
         Scanner sc = new Scanner(System.in);
         System.out.println("Doğum tarihiniz (Yıl-Ay-Gün) :");
         String birthDate = sc.next();
+        sc.close();
 
         LocalDate ldDate = LocalDate.parse(birthDate);
 

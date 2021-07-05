@@ -14,6 +14,7 @@ public class DaireAlan {
         System.out.print("Açıyı giriniz :"); angle = sc.nextFloat();
 
         area = (_PI * (radius * radius) * angle)/360.0f;
+        sc.close();
 
         System.out.println("Değerini girmiş olduğunuz daire diliminin alanı :" + area);
 

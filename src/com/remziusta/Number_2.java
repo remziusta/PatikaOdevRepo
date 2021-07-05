@@ -17,6 +17,7 @@ public class Number_2 {
             }
             
         }
+        sc.close();
 
         System.out.println("Girdiğiniz değerlerden çifte ve 4' e kalansız bölünen sayılar toplamı : " + total);
         

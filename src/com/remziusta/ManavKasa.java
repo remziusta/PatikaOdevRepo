@@ -24,6 +24,7 @@ public class ManavKasa {
         System.out.print("Armut kaç kilo ? "); kilo = sc.nextInt();
         tutar += kilo * PATLICAN_UCRET;
 
+        sc.close();
 
         System.out.println("Toplam tutar : " + tutar);
     }
